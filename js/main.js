@@ -94,7 +94,7 @@ for(const hotel_region in hotelAndRegionList){
                 hotelAndRegionList[hotel_region][i]= {  // Создание второго уровня
                     id: i,
                     heading: (i===1) ? 'Москва' : (i===2) ? 'Санкт-Петербург' : (i===3) ? 'Новосибирск' : (i===4) ? 'Казань' :  'Сочи',
-                    img: (i===1) ? '/img/region1.png' : (i===2) ? '/img/region2.png' : (i===3) ? '/img/region3.png' : (i===4) ? '/img/region4.png' :  '/img/region5.png'
+                    img: (i===1) ? 'img/region1.png' : (i===2) ? 'img/region2.png' : (i===3) ? 'img/region3.png' : (i===4) ? 'img/region4.png' :  'img/region5.png'
                 }
                 break; 
                 
@@ -103,7 +103,7 @@ for(const hotel_region in hotelAndRegionList){
                     id: i,
                     heading: (i===1) ? 'METROPOL Отель Москва' : (i===2) ? 'Англетер Санкт-Петербург' : (i===3) ? 'Grand Autograph Hotel Новосибирск' : (i===4) ? 'Kazan Palace by Tasigo' :  'Swissôtel Resort Сочи Камелия',
                     description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.',
-                    img: (i===1) ? '/img/hotel1.jpg' : (i===2) ? '/img/hotel2.jpg' : (i===3) ? '/img/hotel3.jpeg' : (i===4) ? '/img/hotel4.png' :  '/img/hotel5.jpg'
+                    img: (i===1) ? 'img/hotel1.jpg' : (i===2) ? 'img/hotel2.jpg' : (i===3) ? 'img/hotel3.jpeg' : (i===4) ? 'img/hotel4.png' :  'img/hotel5.jpg'
                 }
                 break;
             default:
